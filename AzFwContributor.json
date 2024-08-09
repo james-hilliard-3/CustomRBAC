@@ -1,0 +1,24 @@
+{
+    "properties": {
+      "roleName": "Azure Firewall Contributor",
+      "description": "Can manage Azure Firewall resources.",
+      "permissions": [
+        {
+          "actions": [
+            "Microsoft.Network/azureFirewalls/read",
+            "Microsoft.Network/azureFirewalls/write",
+            "Microsoft.Network/azureFirewalls/delete",
+            "Microsoft.Resources/subscriptions/resourceGroups/read",
+            "Microsoft.Resources/subscriptions/resourceGroups/resources/read"
+          ],
+          "notActions": [],
+          "dataActions": [],
+          "notDataActions": []
+        }
+      ],
+      "assignableScopes": [
+        "/subscriptions/88b99cc4-b96b-4d65-a9e0-924273ba9b34"
+      ]
+    }
+  }
+  
