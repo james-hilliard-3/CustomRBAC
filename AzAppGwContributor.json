@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "roleName": "Application Gateway Contributor",
+    "description": "Can manage Azure Application Gateway resources.",
+    "permissions": [
+      {
+        "actions": [
+          "Microsoft.Network/applicationGateways/*",
+          "Microsoft.Resources/subscriptions/resourceGroups/read",
+          "Microsoft.Resources/subscriptions/resourceGroups/resources/read"
+        ],
+        "notActions": [],
+        "dataActions": [],
+        "notDataActions": []
+      }
+    ],
+    "assignableScopes": [
+      "/subscriptions/88b99cc4-b96b-4d65-a9e0-924273ba9b34"
+    ]
+  }
+}
